@@ -7,17 +7,24 @@ body {
     min-height: 680px;
 }
 
-.app-text {
-    display: flex;
-    justify-content: center;
-    font-size: 26px;
-    margin: 50px 0 20px;
+.app-text,
+.ownership h3 {
+    text-align: center;
     color: #ecf0f1;
 }
 
-.input-field {
+.app-text {
+    font-size: 26px;
+    margin: 50px 0 20px;
+}
+
+.input-field,
+.ownership {
     display: flex;
     justify-content: center;
+}
+
+.input-field {
     margin-bottom: 30px;
 }
 
@@ -54,7 +61,6 @@ body {
 .input-field button:hover {
     background: white;
     color: red;
-    border: 2px solid white;
     font-weight: 600;
 }
 
@@ -63,7 +69,6 @@ body {
     color: white;
 }
 
-/* Task List Styling */
 .tasks {
     display: flex;
     justify-content: center;
@@ -89,8 +94,8 @@ body {
     background: rgba(236, 240, 241, 0.9);
     text-transform: capitalize;
     font-size: 20px;
-    transition: background 0.3s ease, transform 0.2s ease;
     color: #2c3e50;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .tasks ul li:hover {
@@ -111,18 +116,10 @@ body {
     color: #c0392b;
 }
 
-/* Ownership Footer */
 .ownership {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 40px;
-}
-
-.ownership h3 {
-    font-size: 18px;
-    color: #ecf0f1;
 }
 
 .ownership b {

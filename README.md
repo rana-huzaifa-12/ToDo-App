@@ -1,12 +1,33 @@
-# React + Vite
+# 📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant To-Do List application built with **React.js**, featuring task creation, deletion, and local storage persistence.
 
-Currently, two official plugins are available:
+![To-Do List Screenshot](./Screenshot%20(34).png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks effortlessly
+- ❌ Delete completed or unwanted tasks
+- 💾 Tasks are saved in **localStorage**, so your list stays even after refreshing
+- 🎨 Clean and modern UI with responsive design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js** — Functional components with hooks (`useState`, `useEffect`)
+- **CSS** — Custom styling
+- **Local Storage** — To persist tasks across sessions
+
+## ✨ How It Works 
+
+. Add Task: Type your task in the input field and click the "ADD TASK" button.
+. Delete Task: Click the ❌ icon next to any task to remove it.
+. Persistence: Tasks are saved automatically in your browser's localStorage.
+
+## 🧑‍💻 Author
+
+**Rana Huzaifa**
+
+Connect with me:
+GitHub: @rana-huzaifa-12
+
+“Made with ❤️ by Rana Huzaifa”
