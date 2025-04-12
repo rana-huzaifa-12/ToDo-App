@@ -19,7 +19,8 @@ body {
 }
 
 .input-field,
-.ownership {
+.ownership,
+.tasks {
     display: flex;
     justify-content: center;
 }
@@ -29,14 +30,14 @@ body {
 }
 
 .input-field input {
-    height: 40px;
     width: 400px;
-    font-size: 22px;
+    height: 40px;
     padding: 0 20px;
+    font-size: 22px;
     text-transform: capitalize;
-    outline: none;
     border: 2px solid #ecf0f1;
     border-radius: 4px;
+    outline: none;
     background: #fff;
     transition: border-color 0.3s ease;
 }
@@ -52,9 +53,9 @@ body {
     font-weight: 500;
     background: transparent;
     border: 2px solid white;
-    color: yellow;
     border-radius: 4px;
     cursor: pointer;
+    color: yellow;
     transition: background 0.3s ease;
 }
 
@@ -69,11 +70,6 @@ body {
     color: white;
 }
 
-.tasks {
-    display: flex;
-    justify-content: center;
-}
-
 .tasks ul {
     list-style: none;
     max-width: 560px;
@@ -86,14 +82,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
     padding: 10px 20px;
     margin: 10px 0;
+    height: 50px;
     border: 1px solid #bdc3c7;
     border-radius: 4px;
     background: rgba(236, 240, 241, 0.9);
-    text-transform: capitalize;
     font-size: 20px;
+    text-transform: capitalize;
     color: #2c3e50;
     transition: background 0.3s ease, transform 0.2s ease;
 }
@@ -105,8 +101,8 @@ body {
 
 .tasks ul li button {
     background: none;
-    font-size: 20px;
     border: none;
+    font-size: 20px;
     cursor: pointer;
     color: #e74c3c;
     transition: color 0.3s ease;
@@ -130,10 +126,10 @@ body {
     color: #f1c40f;
 }
 
+/* Responsive Styles */
 
-/* Small devices (phones, up to 600px) */
+/* Small devices (phones) */
 @media (max-width: 600px) {
-
     .input-field input {
         width: 35%;
         font-size: 16px;
@@ -151,15 +147,14 @@ body {
     }
 
     .tasks ul {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .tasks ul li {
+        width: 90%;
         font-size: 14px;
         padding: 2px 6px;
-        width: 90%;
     }
 
     .ownership {
@@ -167,7 +162,7 @@ body {
     }
 }
 
-/* Medium devices (tablets, 601px to 900px) */
+/* Medium devices (tablets) */
 @media (min-width: 601px) and (max-width: 900px) {
     .input-field input {
         width: 300px;
@@ -189,7 +184,7 @@ body {
     }
 }
 
-/* Large devices (laptops, 901px to 1200px) */
+/* Large devices (laptops) */
 @media (min-width: 901px) and (max-width: 1200px) {
     .input-field input {
         width: 350px;
