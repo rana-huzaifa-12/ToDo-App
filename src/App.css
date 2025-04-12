@@ -129,3 +129,83 @@ body {
 .ownership span {
     color: #f1c40f;
 }
+
+
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+
+    .input-field input {
+        width: 35%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .input-field button {
+        padding: 2px 8px;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .app-text {
+        font-size: 18px;
+    }
+
+    .tasks ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tasks ul li {
+        font-size: 14px;
+        padding: 2px 6px;
+        width: 90%;
+    }
+
+    .ownership {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .input-field input {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .input-field button {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+
+    .app-text {
+        font-size: 24px;
+    }
+
+    .tasks ul li {
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+}
+
+/* Large devices (laptops, 901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .input-field input {
+        width: 350px;
+        font-size: 21px;
+    }
+
+    .input-field button {
+        padding: 10px 35px;
+        font-size: 19px;
+    }
+
+    .app-text {
+        font-size: 25px;
+    }
+
+    .tasks ul li {
+        font-size: 19px;
+    }
+}
