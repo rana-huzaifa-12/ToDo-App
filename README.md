@@ -20,9 +20,9 @@ A simple and elegant To-Do List application built with **React.js**, featuring t
 
 ## ✨ How It Works 
 
-. Add Task: Type your task in the input field and click the "ADD TASK" button.
-. Delete Task: Click the ❌ icon next to any task to remove it.
-. Persistence: Tasks are saved automatically in your browser's localStorage.
+- Add Task: Type your task in the input field and click the "ADD TASK" button.
+- Delete Task: Click the ❌ icon next to any task to remove it.
+- Persistence: Tasks are saved automatically in your browser's localStorage.
 
 ## 🧑‍💻 Author
 
