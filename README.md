@@ -27,7 +27,7 @@ A simple and elegant To-Do List application built with **React.js**, featuring t
 
 **Rana Huzaifa**
 
-Connect with me:
+Connect with me: <br>
 GitHub: @rana-huzaifa-12
 
 “Made with ❤️ by Rana Huzaifa”
