@@ -9,7 +9,8 @@ A simple and elegant To-Do List application built with **React.js**, featuring t
 - ✅ Add new tasks effortlessly
 - ❌ Delete completed or unwanted tasks
 - 💾 Tasks are saved in **localStorage**, so your list stays even after refreshing
-- 🎨 Clean and modern UI with responsive design
+- 🎨 Clean and modern UI 
+- ✅ Responsive design
 
 ## 🛠️ Tech Stack
 
