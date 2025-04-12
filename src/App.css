@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(45deg, red, black);
+    min-height: 680px;
+}
+
+.app-text {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin: 50px 0 20px;
+    color: #ecf0f1;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input-field input {
+    height: 40px;
+    width: 400px;
+    font-size: 22px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    outline: none;
+    border: 2px solid #ecf0f1;
+    border-radius: 4px;
+    background: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.input-field input:focus {
+    border-color: rgb(133, 5, 5);
+}
+
+.input-field button {
+    padding: 10px 40px;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.input-field button:hover {
+    background: white;
+    color: red;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.input-field button:active {
+    background: red;
+    color: white;
+}
+
+/* Task List Styling */
+.tasks {
+    display: flex;
+    justify-content: center;
+}
+
+.tasks ul {
+    list-style: none;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tasks ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: rgba(236, 240, 241, 0.9);
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    color: #2c3e50;
+}
+
+.tasks ul li:hover {
+    background: rgba(208, 215, 222, 0.9);
+    transform: translateY(-2px);
+}
+
+.tasks ul li button {
+    background: none;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: #e74c3c;
+    transition: color 0.3s ease;
+}
+
+.tasks ul li button:hover {
+    color: #c0392b;
+}
+
+/* Ownership Footer */
+.ownership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ownership h3 {
+    font-size: 18px;
+    color: #ecf0f1;
+}
+
+.ownership b {
+    color: #e74c3c;
+}
+
+.ownership span {
+    color: #f1c40f;
+}
